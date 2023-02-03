@@ -1,0 +1,55 @@
+@import url("reset.css");
+
+a {
+  color: rgba(0, 128, 0, 0.877);
+}
+
+#first,
+#second,
+#third,
+#fourth,
+#fifth,
+#sixth,
+#seventh {
+  color: rgba(255, 94, 0, 0.856);
+}
+
+.text {
+  color: rgb(128, 128, 128);
+}
+
+li.item {
+  color: rgba(238, 130, 238, 0.897);
+}
+
+.list li {
+  color: rgba(255, 0, 0, 0.548);
+}
+
+.text span {
+  color: pink;
+}
+
+main > h1 {
+  color: blue;
+}
+
+.text + h2 {
+  color: rgba(102, 51, 153, 0.753);
+}
+
+section h3 {
+  color: rgb(152, 215, 251);
+}
+
+.list-causes .item {
+  color: rgba(255, 99, 71, 0.87);
+}
+
+.footer-list ~ p {
+  color: rgba(220, 20, 60, 0.849);
+}
+
+.text.accent {
+  color: rgba(76, 0, 130, 0.897);
+}
