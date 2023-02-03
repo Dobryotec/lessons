@@ -1,9 +1,5 @@
 @import url("reset.css");
 
-a {
-  color: rgba(0, 128, 0, 0.877);
-}
-
 #first,
 #second,
 #third,
@@ -52,4 +48,8 @@ section h3 {
 
 .text.accent {
   color: rgba(76, 0, 130, 0.897);
+}
+
+a[href="#"] {
+  color: rgba(255, 217, 0, 0.884);
 }
