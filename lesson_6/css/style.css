@@ -1,0 +1,135 @@
+@import url("reset.css");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+[class*="-conteiner"] {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.article-section {
+  max-width: 816px;
+  margin: 0 auto;
+}
+
+.article-section:last-child {
+  padding-bottom: 50px;
+}
+
+.article-section:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6;
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+
+.wrapper-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.79;
+}
+
+.wrapper-text > p:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.article-image {
+  margin: 0 auto 80px;
+}
+
+.article-image > img {
+  max-width: 100%;
+}
+
+.title.secondary {
+  max-width: 605px;
+}
+
+.article-images {
+  font-size: 0;
+  margin: 0 auto 80px;
+}
+
+.article-images > img:not(:last-child) {
+  margin-right: 30px;
+}
+.article-images > img {
+  font-size: 16px;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.article-second-image {
+  margin: 0 auto 100px;
+  padding-top: 50px;
+}
+.article-second-image > img {
+  width: 100%;
+}
+
+.wrapper-text.secondary {
+  margin-bottom: 100px;
+}
+
+.article-section-title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6;
+  max-width: 605px;
+}
+
+.article-section.secondary {
+  margin-bottom: 80px;
+  padding-top: 50px;
+}
+.article-section.primary {
+  margin-bottom: 100px;
+}
+.article-images.secondary {
+  font-size: 0;
+  margin: 0 auto 100px;
+}
+.article-images.secondary > img {
+  font-size: 16px;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.link {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: brown;
+  border-radius: 10px;
+  box-shadow: 0 5px 0 0 black;
+  font-weight: 700;
+  font-style: oblique;
+  text-align: center;
+  top: 0;
+  opacity: 0.6;
+  transition: top 300ms, box-shadow 300ms, opacity 1000ms;
+}
+.link:hover {
+  opacity: 1;
+  top: 5px;
+  box-shadow: 0 2px 0 0 black;
+}
+
+.article-footer {
+  padding-bottom: 50px;
+}
+
+.wrapper-link {
+  max-width: 400px;
+  margin: 0 auto;
+}
