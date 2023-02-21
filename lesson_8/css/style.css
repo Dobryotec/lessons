@@ -1,0 +1,344 @@
+@import url("reset.css");
+
+.header-container {
+  max-width: 1270px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 330px;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+  background: black url("../img/skyscraper.jpg") center / cover no-repeat;
+}
+
+.header-contant {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.67;
+  color: rgba(229, 229, 229, 1);
+}
+
+.header-title {
+  max-width: 605px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6;
+  color: rgba(248, 249, 250, 1);
+  transition: color 500ms;
+}
+
+.header-title:hover,
+.header-title:focus {
+  color: rgba(218, 165, 32, 0.863);
+}
+
+.header-contant-text {
+  max-width: 410px;
+}
+
+.header-contant * {
+  margin-bottom: 15px;
+}
+
+.header-contant *:last-child {
+  margin-bottom: 0;
+}
+
+.main {
+  margin-bottom: 50px;
+}
+
+.main-container {
+  max-width: 1175px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto 50px;
+}
+
+.main-contant-first {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: rgba(99, 115, 129, 1);
+}
+
+.main-lists {
+  margin-bottom: 90px;
+}
+.main-contant-title {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1;
+  margin-bottom: 45px;
+  color: rgba(33, 43, 54, 1);
+}
+.main-contant-lists > ul:not(:last-child) {
+  margin-bottom: 90px;
+}
+.list > li:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.list-first li::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/Ellipse.jpg") 0 0 no-repeat;
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  margin-left: -23px;
+}
+
+.list-first li {
+  padding-left: 23px;
+}
+
+.list-second li::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/circle-blue.jpg") 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: -34px;
+}
+
+.list-second li {
+  padding-left: 34px;
+}
+
+.list-third li::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/circle-green.jpg") 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: -34px;
+}
+.list-third > li {
+  padding-left: 34px;
+}
+
+.list-fourth li::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/circle-red.jpg") 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: -34px;
+}
+
+.list-fourth > li {
+  padding-left: 34px;
+}
+
+.list-fifth li::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/arrow.jpg") 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: -34px;
+}
+.list-fifth > li {
+  padding-left: 34px;
+}
+
+.list-sixth li::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/star.jpg") 0 0 no-repeat;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  margin-left: -34px;
+}
+
+.list-sixth > li {
+  padding-left: 34px;
+}
+
+.main-contant-second {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  margin-bottom: 50px;
+
+  background: url("../img/Vector-first.png") right / 535px 560px no-repeat,
+    url("../img/Vector-second.png") right / 620px 560px no-repeat #f4f7ff;
+}
+
+.main-container-second {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  background: url("../img/speaker.png") 750px 80px / 272px 396px no-repeat;
+}
+.main-hero {
+  padding-top: 130px;
+  padding-bottom: 160px;
+}
+.main-hero > * {
+  margin-bottom: 15px;
+}
+.main-hero-price {
+  max-width: 500px;
+  color: rgba(48, 86, 211, 1);
+}
+.main-hero-title {
+  max-width: 470px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.25;
+}
+.main-hero-text {
+  max-width: 570px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(99, 115, 129, 1);
+  margin-bottom: 35px;
+}
+.main-hero-button {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px 30px 10px 30px;
+  border-radius: 30px;
+  background-color: rgba(48, 86, 211, 1);
+  color: rgba(255, 255, 255, 1);
+  transition: background-color 500ms, color 500ms;
+}
+.main-hero-button:hover,
+.main-hero-button:focus {
+  background-color: rgba(218, 165, 32, 0.863);
+  color: red;
+}
+.main-hero > *:last-child {
+  margin-bottom: 0;
+}
+.main-contant-lists > ol:not(:last-child) {
+  margin-bottom: 60px;
+}
+.main-container-third {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+ol > li {
+  cursor: pointer;
+}
+
+ol > li:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+ol {
+  counter-reset: item;
+}
+.order-list-first > li::before {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  counter-increment: item;
+  content: counter(item);
+  width: 25px;
+  height: 25px;
+  background-color: rgba(48, 86, 211, 1);
+  border-radius: 50%;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 5px;
+  margin-left: -40px;
+  transform: scale(1);
+  transition: scale 500ms;
+}
+
+.order-list-first > li {
+  padding-left: 40px;
+}
+
+.order-list-second > li::before {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  counter-increment: item;
+  content: counter(item);
+  width: 25px;
+  height: 25px;
+  background-color: rgba(48, 86, 211, 1);
+  border-radius: 3px;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 5px;
+  margin-left: -40px;
+  opacity: 1;
+  transform: rotate(0deg);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.order-list-second > li {
+  padding-left: 40px;
+}
+
+.order-list-third > li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 5px;
+  background-color: rgba(255, 0, 0, 0.897);
+  border-radius: 3px;
+  transition: width 500ms;
+}
+
+.order-list-first > li:hover::before {
+  transform: scale(1.5);
+  background-color: rgba(218, 165, 32, 0.925);
+}
+.order-list-second > li:hover::before {
+  opacity: 0.7;
+  color: rgba(218, 165, 32, 0.932);
+  transform: rotate(360deg);
+}
+
+.order-list-third > li:hover::after {
+  width: 300px;
+}
+
+.wrapper-link {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-style: oblique;
+  background-color: rgba(218, 165, 32, 0.918);
+  padding: 10px 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 0 0 black;
+  opacity: 0.6;
+  transition: opacity 1000ms, box-shadow 300ms;
+}
+
+.link:hover {
+  box-shadow: 0 2px 0 0 black;
+  opacity: 1;
+}
